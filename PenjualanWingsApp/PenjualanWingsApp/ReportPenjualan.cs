@@ -50,7 +50,7 @@ namespace PenjualanWingsApp
 
                 if (!string.IsNullOrEmpty(tbox_transaction.Text))
                 {
-                    filter += "'" + tbox_transaction.Text + "' ";
+                    filter += "'" + tbox_transaction.Text + "', ";
                 }
                 else
                 {
