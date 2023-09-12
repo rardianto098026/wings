@@ -51,6 +51,7 @@
             // 
             this.tbox_qty.Location = new System.Drawing.Point(80, 25);
             this.tbox_qty.Name = "tbox_qty";
+            this.tbox_qty.ReadOnly = true;
             this.tbox_qty.Size = new System.Drawing.Size(38, 20);
             this.tbox_qty.TabIndex = 11;
             // 
