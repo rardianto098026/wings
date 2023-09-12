@@ -42,7 +42,7 @@ namespace PenjualanWingsApp
                 string filter = "";
                 if (!string.IsNullOrEmpty(tbox_search.Text))
                 {
-                    filter = tbox_search.Text + ", ";
+                    filter = "'" + tbox_search.Text + "', ";
                 }else
                 {
                     filter = "null, ";
@@ -50,7 +50,7 @@ namespace PenjualanWingsApp
 
                 if (!string.IsNullOrEmpty(tbox_transaction.Text))
                 {
-                    filter += tbox_transaction.Text + ", ";
+                    filter += "'" + tbox_transaction.Text + "' ";
                 }
                 else
                 {
@@ -59,7 +59,7 @@ namespace PenjualanWingsApp
 
                 if (!string.IsNullOrEmpty(tbox_user.Text))
                 {
-                    filter += tbox_user.Text + ", ";
+                    filter += "'" + tbox_user.Text + "', ";
                 }
                 else
                 {
@@ -86,7 +86,7 @@ namespace PenjualanWingsApp
 
                 if (!string.IsNullOrEmpty(tbox_item.Text))
                 {
-                    filter += tbox_item.Text + ", ";
+                    filter += "'" + tbox_item.Text + "'";
                 }
                 else
                 {

@@ -52,7 +52,7 @@ namespace PenjualanWingsApp
                         initialY += uc.Height + 5; // Ganti 5 dengan jarak vertikal yang diinginkan
                     }
                 }
-                lbl_total.Text = ModelPublic.TotalHarga.ToString();
+                lbl_total.Text = "Rp. " + ModelPublic.TotalHarga.ToString();
             }
             catch (Exception ex)
             {

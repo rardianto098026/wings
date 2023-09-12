@@ -30,5 +30,12 @@ namespace PenjualanWingsApp
             reportPage.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm login = new LoginForm();
+            login.Show();
+        }
     }
 }

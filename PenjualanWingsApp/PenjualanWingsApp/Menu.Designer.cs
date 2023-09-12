@@ -31,6 +31,7 @@
             this.btn_buy_product = new System.Windows.Forms.Button();
             this.btn_report = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_buy_product
@@ -69,12 +70,23 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "MENU";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 152);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(52, 23);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "logout";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(262, 152);
+            this.ClientSize = new System.Drawing.Size(262, 185);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_report);
             this.Controls.Add(this.btn_buy_product);
@@ -92,5 +104,6 @@
         private System.Windows.Forms.Button btn_buy_product;
         private System.Windows.Forms.Button btn_report;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

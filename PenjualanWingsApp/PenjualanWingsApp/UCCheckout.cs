@@ -49,7 +49,7 @@ namespace PenjualanWingsApp
         }
         public void SetSubTotal(double subTotal)
         {
-            lbl_subtotal.Text = subTotal.ToString();
+            lbl_subtotal.Text = "Rp. " + subTotal.ToString();
         }
         public void SetQty(string qty)
         {
